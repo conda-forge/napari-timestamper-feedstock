@@ -1,5 +1,5 @@
 {% set name = "napari-timestamper" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/napari_timestamper-{{ version }}.tar.gz
-  sha256: d4c8aaa32c50ef08a31bc5112ebb49bc250405541d211e8efd86e5f9a745ec5b
+  sha256: 9f3e75ccde19fe5affcc2d2c5d6fccbbfb938b39644d5777bd442a5211df3f36
 
 build:
   noarch: python
