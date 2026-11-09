@@ -1,13 +1,13 @@
 {% set name = "napari-timestamper" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/napari_timestamper-{{ version }}.tar.gz
-  sha256: 9f3e75ccde19fe5affcc2d2c5d6fccbbfb938b39644d5777bd442a5211df3f36
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/napari_timestamper-{{ version }}.tar.gz
+  sha256: 2bc0c1091d12969d86483ca72a444c70ec97f86a1bf22f4afbd2f692606613b6
 
 build:
   noarch: python
